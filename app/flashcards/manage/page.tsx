@@ -201,7 +201,7 @@ export default function ManagePage() {
                   color="text.secondary"
                   sx={{ lineHeight: 1.4 }}
                 >
-                  {filteredCards.length} küsimust selles kategoorias.
+                  {filteredCards.length} kaarti selles kategoorias.
                 </Typography>
               )}
             </Box>
@@ -213,7 +213,7 @@ export default function ManagePage() {
               onClick={() => setAddCardOpen(true)}
               sx={{ textTransform: "none", borderRadius: 2 }}
             >
-              + Uus küsimus
+              + Uus kaart
             </Button>
           </Stack>
 
@@ -223,7 +223,7 @@ export default function ManagePage() {
             </Typography>
           ) : filteredCards.length === 0 ? (
             <Typography variant="body2" color="text.secondary">
-              Selles kategoorias pole veel küsimusi.
+              Selles kategoorias pole veel kaarte.
             </Typography>
           ) : (
             <>

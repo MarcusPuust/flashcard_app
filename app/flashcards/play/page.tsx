@@ -99,7 +99,7 @@ export default function PlayPage() {
         {!current ? (
           <Stack spacing={2} textAlign="center">
             <Typography variant="h6" fontWeight={600}>
-              Kõik küsimused läbitud!
+              Kõik kaardid läbitud!
             </Typography>
           </Stack>
         ) : (
@@ -111,7 +111,7 @@ export default function PlayPage() {
                 color="text.secondary"
                 fontWeight={600}
               >
-                Küsimus
+                Kaart
               </Typography>
               <Divider />
               <Typography variant="h6" fontWeight={600}>

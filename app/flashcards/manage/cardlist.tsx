@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
   Table,
   TableHead,
@@ -86,7 +86,7 @@ export default function CardList({
       <Table size="small">
         <TableHead>
           <TableRow>
-            <TableCell>Küsimus</TableCell>
+            <TableCell>Kaart</TableCell>
             <TableCell>Vastus</TableCell>
             <TableCell align="right">Toimingud</TableCell>
           </TableRow>

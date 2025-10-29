@@ -52,12 +52,12 @@ export default function AddCardDialog({
 
   return (
     <Dialog open={open} onClose={onClose} fullWidth maxWidth="sm">
-      <DialogTitle>Lisa uus küsimus</DialogTitle>
+      <DialogTitle>Lisa uus kaart</DialogTitle>
 
       <DialogContent>
         <Stack spacing={2} sx={{ mt: 1 }}>
           <TextField
-            label="Küsimus"
+            label="Kaart"
             value={question}
             onChange={(e) => setQuestion(e.target.value)}
             fullWidth
